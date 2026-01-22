@@ -16,17 +16,17 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              padding: const EdgeInsets.all(10),
+              padding:  EdgeInsets.all(10),
               color: Colors.white,
               child: Image.asset(
                 'images/Screenshot 2026-01-21 214402.png',
                 width: 200,
               ),
             ),
-            const SizedBox(height: 10),
-            const Text(
+             SizedBox(height: 10),
+             Text(
               "هذه صورة",
-              style: TextStyle(color: Colors.white),
+              
             ),
           ],
         ),
